@@ -7,7 +7,7 @@ class SolarSystem extends Component {
   render() {
     return (
       <div data-testid="solar-system">
-        <Title headline="Planetas" />
+        <Title headline="Planetas" className="titlePage" />
         <div>
           {planets.map((planet) => (
             <PlanetCard
